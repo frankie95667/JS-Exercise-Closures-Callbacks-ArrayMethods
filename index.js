@@ -248,7 +248,7 @@ function getRunnersByTShirtSize(/* CODE HERE */ runners, tShirtSize) {
 function tallyUpDonations(/* CODE HERE */ runners) {
   /* CODE HERE */
   return runners.reduce((total, runner) => {
-    return total += runner.donation;
+    return total + runner.donation;
   }, 0)
 }
 
